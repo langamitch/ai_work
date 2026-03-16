@@ -69,10 +69,11 @@ const page = () => {
                 Microsoft
               </button>
             </div>
-          <div className='my-2 text-center'>
+          <div className='my-2 text-center flex gap-2'>
             <span>Don't have an account?</span>
             <span
-            onClick={() => navigateTo("/signup")}>Sign up</span>
+            onClick={() => navigateTo("/signup")}
+            className='px-2 cursor-pointer'>Sign up</span>
           </div>
           </div>
         </div>
