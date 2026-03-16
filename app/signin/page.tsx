@@ -77,7 +77,7 @@ const page = () => {
             <span>Don't have an account?</span>
             <span
             onClick={() => navigateTo("/signup")}
-            className='px-2 cursor-pointer'>Sign up</span>
+            className='px-2 cursor-pointer'>Sign up.</span>
           </div>
           </div>
         </div>
