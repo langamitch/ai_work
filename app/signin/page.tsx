@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from './../components/Navbar';
 import InputArea from './../components/InputArea';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
-const page = () => {
+const Page = () => {
 
    const router = useRouter();
 
@@ -74,7 +74,7 @@ const page = () => {
               </button>
             </div>
           <div className='my-2 text-center flex gap-2'>
-            <span>Don't have an account?</span>
+            <span>Don&apos;t have an account?</span>
             <span
             onClick={() => router.push("/signup")}
             className='px-2 cursor-pointer'>Sign up.</span>
@@ -87,4 +87,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

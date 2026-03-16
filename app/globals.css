@@ -5,14 +5,14 @@
   --foreground: #171717;
 }
 
-@theme inline {
+/* @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-helvetica-neue);
   --font-mono: var(--font-geist-mono);
   --font-display: var(--font-pp-editorial-new-italic);
   --font-heading: var(--font-ft-together-bold);
-}
+} */
 
 @media (prefers-color-scheme: dark) {
   :root {

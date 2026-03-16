@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from './../components/Navbar';
 import InputArea from './../components/InputArea';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
-const page = () => {
+const Page = () => {
 
    const router = useRouter();
 
@@ -87,4 +87,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
