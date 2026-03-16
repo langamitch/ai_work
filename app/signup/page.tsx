@@ -45,7 +45,7 @@ const Page = () => {
               type="password"
               placeholder="Enter your password"
             />
-            
+
             <InputArea 
               label="Confirm Password"
               type="password"
@@ -53,7 +53,8 @@ const Page = () => {
             />
 
             {/* Sign In Button */}
-            <button className='mt-2 p-2 text-white price mix-blend-difference rounded-sm w-full cursor-pointer'>
+            <button
+            onClick={() => router.push("/create")} className='mt-2 p-2 text-white price mix-blend-difference rounded-sm w-full cursor-pointer'>
               Sign Up
             </button>
             
