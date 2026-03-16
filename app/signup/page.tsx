@@ -1,10 +1,9 @@
 import React from 'react'
-import Navbar from './components/Navbar';
 
 const page = () => {
   return (
-    <div className=''>
-    <Navbar />
+    <div className='mono'>
+      Signup page
     </div>
   )
 }
