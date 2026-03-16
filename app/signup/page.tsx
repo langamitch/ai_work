@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from './../components/Navbar';
 import InputArea from './../components/InputArea';
-import useNavigate from './../hooks/useNavigate';
+import { useRouter } from 'next/router';
 
 const page = () => {
 
-   const { navigateTo } = useNavigate();
+   const router = useRouter();
 
   return (
     <div className='mono w-full min-h-screen'>
@@ -76,7 +76,7 @@ const page = () => {
           <div className='my-2 text-center flex gap-2'>
             <span>Already have an account?</span>
             <span
-            onClick={() => navigateTo("/signin")}
+            onClick={() => router.push("/signin")}
               className='px-2 cursor-pointer'>Sign in.</span>
           </div>
           </div>
