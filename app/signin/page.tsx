@@ -1,8 +1,12 @@
 import React from 'react'
 import Navbar from './../components/Navbar';
 import InputArea from './../components/InputArea';
+import useNavigate from './../hooks/useNavigate';
 
 const page = () => {
+
+   const { navigateTo } = useNavigate();
+
   return (
     <div className='mono w-full min-h-screen'>
       <Navbar />
