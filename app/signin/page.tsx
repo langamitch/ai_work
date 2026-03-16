@@ -71,7 +71,8 @@ const page = () => {
             </div>
           <div className='my-2 text-center'>
             <span>Don't have an account?</span>
-            <span>Sign up</span>
+            <span
+            onClick={() => navigateTo("/signup")}>Sign up</span>
           </div>
           </div>
         </div>
