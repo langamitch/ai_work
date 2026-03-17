@@ -15,13 +15,21 @@ const Page = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="text-xl mb-4">Home</h1>
+      <h1 className="text-xl mb-4">Workspace Home</h1>
+      <p className="mb-4 text-gray-600">Start by creating a new project or opening an existing workspace.</p>
+
+      <button
+        onClick={() => router.push("/create")}
+        className="mt-2 p-2 text-white price mix-blend-difference rounded-sm w-[200px] cursor-pointer"
+      >
+        Create New Project
+      </button>
 
       <button
         onClick={() => router.push("/app/design")}
         className="mt-2 p-2 text-white price mix-blend-difference rounded-sm w-[200px] cursor-pointer"
       >
-        Create file
+        Open Design Workspace
       </button>
 
       <button
